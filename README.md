@@ -1,0 +1,2 @@
+# MagicLink
+魔链
