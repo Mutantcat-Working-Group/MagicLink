@@ -31,7 +31,7 @@
       └── help
   ```
 
-- 接下来，比如当我们使用magiclink hello时，系统将直接返回打印help文件中的静态内容，这就是静态指令的使用方案（实现伪造、临时补充）
+- 接下来，比如当我们使用magiclink hello时，系统将直接返回打印hello文件中的静态内容，这就是静态指令的使用方案（实现伪造、临时补充）
 
 - 当我们使用magiclink socat的时候则会调起socat程序，使用magiclink add时则会调起这个shell脚本
 
