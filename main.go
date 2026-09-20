@@ -5,6 +5,9 @@ import (
 	"os"
 )
 
+// version 为当前发布版本号，release 构建可用 -ldflags -X main.version 覆盖。
+var version = "1.0.20260920"
+
 // MaginLink 是一个系统命令行补全工具
 // By；mutantcat.org
 // 功能：可以通过类似busybox那样的符号链接的方式补全指令
@@ -34,7 +37,7 @@ func main() {
 			println("- Usage: 直接在需要指令的文件夹下的/mlink文件夹中的脚本优先级更高")
 			println("- Usage: 文件名即是指令名且可挂载全局系统，详情见 https://www.mutantcat.org/software/magiclink")
 			println("- Info : 本产品由异猫工作群（www.mutantcat.org）提供维护支持")
-			println("- Version: V1.0.20250716")
+			println("- Version: V" + version)
 			return
 		}
 		// 如果是自身程序开头的就跳过这个参数
