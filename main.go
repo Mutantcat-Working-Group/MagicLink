@@ -1,3 +1,5 @@
+// MagicLink — 由异猫工作群（mutantcat.org）发行
+// GitHub: https://github.com/Mutantcat-Working-Group
 package main
 
 import (
@@ -37,6 +39,7 @@ func main() {
 			println("- Usage: 直接在需要指令的文件夹下的/mlink文件夹中的脚本优先级更高")
 			println("- Usage: 文件名即是指令名且可挂载全局系统，详情见 https://www.mutantcat.org/software/magiclink")
 			println("- Info : 本产品由异猫工作群（www.mutantcat.org）提供维护支持")
+			println("- Github: https://github.com/Mutantcat-Working-Group")
 			println("- Version: V" + version)
 			return
 		}
